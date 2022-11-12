@@ -4,7 +4,7 @@ from flask import Flask, request
 import numpy as np
 
 
-median_value_model = load_model("D:\\Zaim\\Machine_learning\\zaim_personal\\machine_learning\\week_3\\flask_app\\gbr_model_pipeline")
+median_value_model = load_model("./gbr_model_pipeline")
 
 
 app = Flask(__name__)
